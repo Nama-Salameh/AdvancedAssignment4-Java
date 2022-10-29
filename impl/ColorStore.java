@@ -1,4 +1,6 @@
-package intf;
+package impl;
+import impl.Color;
+
 import java.util.HashMap;
 
 public class ColorStore{
@@ -21,6 +23,5 @@ public class ColorStore{
         Color copy =  (Color)colors.get(color).clone();// copy from prototype
         return copy;
     }
-
 
 }

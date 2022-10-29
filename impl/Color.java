@@ -1,4 +1,8 @@
-package intf;
+package impl;
+
+import intf.Converting;
+import intf.Printing;
+import intf.ReturningColor;
 
 public class Color implements Cloneable {
     private final int red;
@@ -13,12 +17,6 @@ public class Color implements Cloneable {
         this.red = red;
         this.green = green;
         this.blue = blue;
-    }
-
-    public Color(Color color) {
-        this.red = color.red;
-        this.green = color.green;
-        this.blue = color.blue;
     }
 
     @Override
@@ -39,20 +37,19 @@ public class Color implements Cloneable {
     }
 
     public static String convert(int red, int green, int blue) {
-        return String.valueOf(red) + "-" + String.valueOf(green) + "-" + String.valueOf(blue);
+        Converting converting = new Convert();
+        return converting.convert(red,green,blue);
     }
 
     //2 & 3
     public static Color getColor(int red, int green, int blue) {
-        String colorstr = Color.convert(red, green, blue);
-        if (!ColorStore.colors.containsKey(colorstr)) {
-            Color color = new Color(red, green, blue);
-            ColorStore.colors.put(colorstr, color);
-            System.out.print("This color is defined now : ");
-            return color;
-        } else {
-            System.out.print("This color already exists : ");
-            return ColorStore.getCopy(colorstr);
-        }
+        ReturningColor getcolor = new get();
+        return getcolor.getColors(red,green,blue);
+    }
+
+
+    public static void printColor(int red, int green, int blue){
+        Printing print = new Printcolor();
+        print.printColor(red,green,blue);
     }
 }
