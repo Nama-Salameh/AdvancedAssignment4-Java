@@ -45,15 +45,15 @@ and added the defualt colors in static block (red,green,blue,white,black) the ke
 
 in main 
 - write code to get a 
-1- new color--> the code added it into HashMap and return the value of the color.
-2- existing color --> only return it's value.
-3- also new color.
+1 new color--> the code added it into HashMap and return the value of the color.
+2 existing color --> only return it's value.
+3 also new color.
 - Then pirnts all colors in the HashMap--> printing the default colors and the 2 colors that added recently.
 - write code to print 
-1- red that is in defualt colors--> it's Red.
-2- blue that is in defualt colors --> it's Blue.
-3- color dosn't exists in HashMap--> it's not exsixs .
-4- color the added recently in the HaskMap (not a defualt color) --> the value of this color.
+1 red that is in defualt colors--> it's Red.
+2 blue that is in defualt colors --> it's Blue.
+3 color dosn't exists in HashMap--> it's not exsixs .
+4 color the added recently in the HaskMap (not a defualt color) --> the value of this color.
  
 
  ![AAsaignment4 drawio](https://user-images.githubusercontent.com/92352860/198851696-f5930df1-b841-4a45-9dcb-df8df82f7c3e.png)
