@@ -9,10 +9,6 @@ public class Color implements Cloneable {
     private final int green;
     private final int blue;
 
-    static {
-        System.out.println("I am scaning Color class");
-    }
-
     public Color(int red, int green, int blue) {
         this.red = red;
         this.green = green;
