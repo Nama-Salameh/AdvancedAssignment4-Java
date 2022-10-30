@@ -55,5 +55,7 @@ In main : <br />
 3) color dosn't exists in HashMap--> it's not exsixs . <br />
 4) color the added recently in the HaskMap (not a defualt color) --> the value of this color.
  
+ 
+![AAsaignment4 drawio (1)](https://user-images.githubusercontent.com/92352860/198866795-96ae7441-5884-4229-854b-a67ae577eb77.png)
 
- ![AAsaignment4 drawio](https://user-images.githubusercontent.com/92352860/198851696-f5930df1-b841-4a45-9dcb-df8df82f7c3e.png)
+ 
